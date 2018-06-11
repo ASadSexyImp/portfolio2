@@ -4,10 +4,6 @@
   text-align: center;
 }
 
-@font-face {
-    font-family: 'Gochi Hand', cursive;
-}
-
 body {
   font-family: 'Gochi Hand', cursive;
 }
@@ -116,27 +112,38 @@ body {
 }
 
 .AmI p {
-  padding-top: 7%;
+  width: 96%;
+  height:10%;
+  padding: 5% 2%;
+  text-align: center;
   font-size: 50px;
-  margin-bottom: 20%;
   text-shadow: 2px 2px 1px #26d0c9, -2px 2px 1px #26d0c9, 2px -2px 1px #26d0c9, -2px -2px 1px #26d0c9;
 }
 
+.left {
+  width: 33%;
+  height: 80%;
+  float: left;
+}
+
+.center {
+  width: 33%;
+  height: 80%;
+  background-color: black;
+  float: left;
+}
+
+.right {
+  width: 33%;
+  height: 80%;
+  background-color: blue;
+  float: left;
+}
+
 .AmI li {
-  padding: 1% 3%;
-  margin: 1% 0;
-  position: relative;
-  width: 10%;
-  height: 7%;
-  left: 10%;
-  right: auto;
   font-size: 300%;
   background-color: #26d0c9;
   list-style-type: none;
-}
-
-.bright {
-  color: #00FFFF;
 }
 
 .back {
@@ -156,17 +163,16 @@ body {
 }
 
 .Work p {
+  width:100%;
+  height: 10%;
   color: white;
   padding: 5% 0;
   font-size: 50px;
 }
 
 .Work li {
-  margin: 2% 4.7%;
-  padding: 5% 0;
   width: 40%;
-  height: 50%;
-  list-style-type: none;
+  height: 40%;
   background-color: #FFF;
   background-position: center;
   border-color: #000;
@@ -189,21 +195,29 @@ body {
 }
 
 .Youtube {
+  width: 50%;
+  height: 40%;
   background-image: url(../img/youtube.jpg);
   background-size: cover;
 }
 
 .LiT {
+  width: 40%;
+  height: 40%;
   background-image: url(../img/lit.jpg);
   background-size: cover;
 }
 
 .Technologia {
+  width: 40%;
+  height: 40%;
   background-image: url(../img/technorogia.png);
   background-size: cover;
 }
 
 .Mesh {
+  width: 40%;
+  height: 40%;
   background-image: url(../img/mesh.png);
   background-size: cover;
 }
@@ -222,11 +236,11 @@ body {
   text-shadow: 2px 2px 1px #26d0c9, -2px 2px 1px #26d0c9, 2px -2px 1px #26d0c9, -2px -2px 1px #26d0c9;
 }
 
-
 .Contact li {
   margin: 5% 6.4%;
   list-style-type: none;
   float: left;
+  text-align: center;
   width: 20%;
   height: 20%;
   color: #00FFFF;
@@ -234,32 +248,22 @@ body {
 
 .Contact li:hover{
   background-color: #26d0c9;
-  border-radius: 90px;
 }
 
-/*.Contact a {
-  padding: 25% 28%;
-}
-*/
 .Contact i {
-  padding: 20% 20%;
+  text-align: center;
   color: #00FFFF;
   font-size: 100px;
 }
 
 .Contact i:hover{
   color: #000;
-  border-radius: 90px;
 }
 
 footer {
   list-style-type: none;
-  margin-top: 10%;
-  padding-top: 25%;
   letter-spacing: 3px;
-  font-size: 1.5rem;
   line-height: 10px;
   color: #000;
-  height: 10px;
+  height: 10%;
 }
-
